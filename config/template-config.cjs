@@ -8,8 +8,6 @@ const TEMPLATE_CONFIG = [
       
       {{one_talk.DATA}}
       
-      {{message.DATA}}
-      
       ---
       
       城市：{{city.DATA}}
