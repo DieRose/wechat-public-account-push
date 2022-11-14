@@ -4,11 +4,11 @@ const TEMPLATE_CONFIG = [
     id: '0001',
     title: '新的一天！',
     desc: `
+      {{one_talk.DATA}}
+      
       **{{date.DATA}}**
       
       {{holidaytts.DATA}} 
-      
-      {{one_talk.DATA}}
       
       ---
       
