@@ -24,6 +24,21 @@ const TEMPLATE_CONFIG = [
       
       {{comprehensive_horoscope.DATA}}
       
+        TIAN_API: {
+    // 天行API KEY，如果使用天行API则需要填写此项
+    key: '5aa0fa2c6c8309b59124cfb281a66082',
+    
+    /** 天行API相关，需要config中配置 TIAN_API_KEY  */
+    // 早安心语, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    morningGreeting: true,
+  
+    // 晚安心语, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    eveningGreeting: true,
+  
+    // 天行天气（展示未来N天，最多7天）, 填 0 则不使用，按需关闭不使用的功能可以提高运行速度
+    weather: 3,
+  },
+      
       ---
       
       今天是运行的第{{love_day.DATA}}天
