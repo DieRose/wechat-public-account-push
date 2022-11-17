@@ -13,13 +13,14 @@ const USER_CONFIG = {
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: '',
 
-  PROVINCE: '河北',
-  CITY: '唐山',
-
   USERS: [
     {
       // 想要发送的人的名字
       name: '甘硕',
+      // 所在省份或城市，也可以不填
+      province: '河北',
+      // 所在城市或县区
+      city: '唐山',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'SCT180369T90mlO28IxcGsaoK86BBkyKVt',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
