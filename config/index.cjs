@@ -74,17 +74,17 @@ const USER_CONFIG = {
       // 所在省份或城市，也可以不填
       province: '河北',
       // 所在城市或县区
-      city: '乐亭',
+      city: '唐山',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'SCT180342TGWODcALS2z8usL8r4ECwVGFS',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: '0001',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '11-17',
+      horoscopeDate: '05-18',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '你', year: '2004', date: '10-06',
+          type: '*生日', name: '你', year: '2000', date: '04-15',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
