@@ -28,7 +28,7 @@ const TEMPLATE_CONFIG = [
       
       ---
       
-      今天是运行的第{{love_day.DATA}}天
+      今天是喜欢你的第{{love_day.DATA}}天
       
       {{birthday_message.DATA}}
       
